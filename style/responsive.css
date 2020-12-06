@@ -1,0 +1,316 @@
+@media all and (max-width: 1000px) {
+  .main-right img {
+   width: 300px;
+  }
+  .main-left {
+   width: 400px;
+  }
+  .container-premium {
+    flex-direction: column;
+  }
+  .premium-title, .premium-image {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .premium-title {
+    margin-bottom: 20px;
+    border: none;
+  }
+  .premium-image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-bottom: 30px;
+  }
+  .premium-title h1 {
+    font-size: 30px;
+    letter-spacing: -.65px;
+    line-height: 39px;
+    margin: 10;
+ }
+ .premium-title p {
+    font-size: 18px;
+    letter-spacing: -.4px;
+    line-height: 30px;
+ }
+  .bg {
+    width: 220px;
+    height: 160px;
+  }
+  .contentweb {
+    padding-top: 50px;
+    padding-bottom: 130px;
+  }
+  .imgbg .bg {
+    margin-top: 10px;
+  }
+  .slideshow {
+    width: 220px;
+    height: 190px;
+  }
+  #backbg1 {
+    top: 120px;
+    left: 70px;
+  }
+  #backbg2 {
+    top: 40px;
+    left: 190px;
+  }
+  #backbg3 {
+    top: 200px;
+    left: 230px;
+  }
+  .slide {
+    top: 190px;
+    left: 170px;
+  }
+
+  @keyframes slider {
+  	0% {
+  		left: 50px; opacity: 0;
+  	}
+    2% {
+      left: 50px; opacity: 0;
+    }
+  	3% {
+  		opacity: 1;
+  	}
+    10% {
+      left: 0; opacity: 1;
+    }
+  	20% {
+  		left: 0; opacity: 1;
+  	}
+  	21% {
+  		opacity: 0;
+  	}
+  	24% {
+  		opacity: 0;
+  	}
+    30% {
+      opacity: 1;
+    }
+  	36% {
+  		left: -220px; opacity: 1;
+  	}
+  	45% {
+  		left: -220px; opacity: 1;
+  	}
+  	46% {
+  		opacity: 0;
+  	}
+  	48% {
+  	  opacity: 0;
+  	}
+
+    50% {
+      opacity: 1;
+    }
+  	60% {
+  		left: -450px; opacity: 1;
+  	}
+  	70% {
+  		left: -450px; opacity: 1;
+  	}
+  	72% {
+  		opacity: 0;
+  	}
+  	74% {
+  	  opacity: 0;
+  	}
+    75% {
+      opacity: 1;
+    }
+  	82% {
+  		left: -680px; opacity: 1;
+  	}
+  	95% {
+  		left: -680px; opacity: 1;
+  	}
+  	97% {
+  		left: -680px; opacity: 0;
+  	}
+
+  	100% {
+  		left: -1000px; opacity: 0;
+  	}
+  }
+  @-webkit-keyframes slider {
+  	0% {
+  		left: 0; opacity: 0;
+  	}
+  	2% {
+  		opacity: 1;
+  	}
+  	20% {
+  		left: 0; opacity: 1;
+  	}
+  	21% {
+  		opacity: 0;
+  	}
+  	24% {
+  		opacity: 0;
+  	}
+  	33% {
+  		left: -220px; opacity: 1;
+  	}
+  	45% {
+  		left: -220px; opacity: 1;
+  	}
+  	46% {
+  		opacity: 0;
+  	}
+  	48% {
+  		opacity: 0;
+  	}
+  	50% {
+  		left: -450px; opacity: 1;
+  	}
+  	70% {
+  		left: -450px; opacity: 1;
+  	}
+  	72% {
+  		opacity: 0;
+  	}
+  	74% {
+  		opacity: 0;
+  	}
+  	75% {
+  		left: -680px; opacity: 1;
+  	}
+  	95% {
+  		left: -680px; opacity: 1;
+  	}
+  	97% {
+  		left: -680px; opacity: 0;
+  	}
+  	100% {
+  		left: 0; opacity: 0;
+  	}
+  }
+  @-moz-keyframes slider {
+    0% {
+      left: 0; opacity: 0;
+    }
+    2% {
+      opacity: 1;
+    }
+    20% {
+      left: 0; opacity: 1;
+    }
+    21% {
+      opacity: 0;
+    }
+    24% {
+      opacity: 0;
+    }
+    33% {
+      left: -220px; opacity: 1;
+    }
+    45% {
+      left: -220px; opacity: 1;
+    }
+    46% {
+      opacity: 0;
+    }
+    48% {
+      opacity: 0;
+    }
+    50% {
+      left: -450px; opacity: 1;
+    }
+    70% {
+      left: -450px; opacity: 1;
+    }
+    72% {
+      opacity: 0;
+    }
+    74% {
+      opacity: 0;
+    }
+    75% {
+      left: -680px; opacity: 1;
+    }
+    95% {
+      left: -680px; opacity: 1;
+    }
+    97% {
+      left: -680px; opacity: 0;
+    }
+    100% {
+      left: 0; opacity: 0;
+    }
+  }
+}
+
+@media all and (max-width: 670px) {
+  .menubar {
+    display: block;
+  }
+  .header-right {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .main {
+    height: 850px;
+  }
+  .main-left{
+    margin-top: 350px;
+  }
+  .feedback-item {
+    padding: 10px 0;
+    width: 400px;
+  }
+  .premium-title, .premium-image {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .premium-image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 35px;
+  }
+  .premium-title {
+    margin-bottom: 10px;
+    border: none;
+  }
+  .premium-title h1 {
+    font-size: 28px;
+    letter-spacing: -.65px;
+    line-height: 39px;
+    margin: 10;
+  }
+  .premium-title p {
+      font-size: 18px;
+      letter-spacing: -.4px;
+      line-height: 30px;
+  }
+  .contentweb {
+    height: 800px;
+  }
+  .listcont {
+    padding-top: 350px;
+    width: 600px;
+    text-align: center;
+  }
+  #backbg1 {
+    top: 120px;
+    left: 320px;
+  }
+  #backbg2 {
+    top: 40px;
+    left: 190px;
+  }
+  #backbg3 {
+    top: 200px;
+    left: 50px;
+  }
+  .slide {
+    top: 190px;
+    left: 170px;
+  }
